@@ -3,6 +3,9 @@ module.exports = (sequelize, Sequelize) => {
         subject: {
             type: Sequelize.STRING,
         },
+        image: {
+            type: Sequelize.TEXT,
+        },
         isi: {
             type: Sequelize.TEXT,
         },
@@ -13,6 +16,12 @@ module.exports = (sequelize, Sequelize) => {
             type: Sequelize.TEXT,
         },
         isi4: {
+            type: Sequelize.TEXT,
+        },
+        isi5: {
+            type: Sequelize.TEXT,
+        },
+        isi6: {
             type: Sequelize.TEXT,
         },
     });
